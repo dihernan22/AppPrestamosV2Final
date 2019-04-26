@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/mnNuevoPrestamo"
+        android:title="Nuevo Prestamo"
+        app:showAsAction="always"/>
+
+    <item android:id="@+id/mnNuevoCliente"
+        android:title="Nuevo Cliente"
+        android:icon="@drawable/ic_account_box_black_24dp"
+        app:showAsAction="always"/>
+
+    <item android:id="@+id/mnVerClientes"
+        android:title="Ver Clientes"/>
+
+    <item android:id="@+id/mnVerPrestamos"
+        android:title="Ver Prestamos"/>
+
+    <item android:id="@+id/mnAcerca"
+        android:title="Acerca de"/>
+</menu>
